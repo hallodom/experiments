@@ -1,0 +1,24 @@
+{
+    "folders":
+    [
+        {
+            "folder_exclude_patterns":
+            [
+                ".svn",
+                ".git",
+                ".hg",
+                "CVS",
+                "tmp",
+                ".tmp",
+                "node_modules",
+                "exploded-archives",
+                ".sass-cache",
+                ".idea",
+                ".bundle",
+                "backup"
+            ],
+            "follow_symlinks": true,
+            "path": "~/src/experiments"
+        }
+    ]
+}
