@@ -1,0 +1,61 @@
+/* ==========================================================================
+   animations.scss
+   ========================================================================== */
+
+/*
+ * .bounce-in-top
+ * Slide in from top outside viewport and ends with slight bounce.
+ */
+
+@include keyframes(bounce-in-top) {
+ 40% {
+     @include transform(translateY(-70px));
+  }
+
+  60% {
+     @include transform(translateY(-100px));
+  }
+  
+  80% {
+     @include transform(translateY(-90px));
+  }
+
+  100% {
+     @include transform(translateY(-100px));
+  }
+}
+
+/*
+ * .bounce-in-top-reverse
+ * Reverses position of element from bounce in top
+ */
+
+
+@include keyframes(bounce-in-top-reverse) {
+  40% {
+    @include transform(translateY(-380px));
+  }
+  100% {
+     @include transform(translateY(-400px));
+  }
+}
+
+
+
+@include keyframes(bounce-in-left) {
+ 40% {
+     @include transform(translateX(-70px));
+  }
+
+  60% {
+     @include transform(translateX(-100px));
+  }
+  
+  80% {
+     @include transform(translateX(-90px));
+  }
+
+  100% {
+     @include transform(translateX(-100px));
+  }
+}

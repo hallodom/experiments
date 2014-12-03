@@ -1,0 +1,30 @@
+/* ==========================================================================
+   top-menu.scss
+   ========================================================================== */
+
+
+.top-menu {
+  background: rgba(0,0,0,0.8);
+  padding-top: 50px;
+  @include transition(all 0.6s ease-out);
+
+  a {
+    padding-left: 20px;
+    line-height: 40px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+  }
+}
+
+/*
+ * .top-menu
+ */
+
+ .top-menu {
+  @include transform(translateY(-400px));
+ }
+
+ .top-menu.reverse {
+  @include transform(translateY(-100px));
+ }

@@ -1,0 +1,34 @@
+/* ==========================================================================
+   animations.scss
+   ========================================================================== */
+
+
+/*
+ * .animate-bounce-in-left
+ * Transitions menu in from offscreen left and ends with bounce
+ */
+
+
+.animate-bounce-in-left-start-pos {
+  @include transform(translateX(-400px));
+}
+
+.animate-bounce-in-left {
+  @include animation(bounce-in-left 0.6s);
+  @include animation-fill-mode(forwards);
+}
+
+/*
+ * .animate-bounce-in-top
+ * Transitions menu in from offscreen top and ends with bounce
+ */
+
+.animate-bounce-in-top {
+  @include animation(bounce-in-top 0.6s);
+  @include animation-fill-mode(forwards);
+}
+
+.reverse.animate-bounce-in-top {
+  @include animation(bounce-in-top-reverse 0.4s);
+  @include animation-fill-mode(forwards);
+}

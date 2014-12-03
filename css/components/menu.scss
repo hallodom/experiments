@@ -1,0 +1,44 @@
+.menu {
+  box-sizing: border-box;
+  background: #24272F;
+  height: 100%;
+  width: 400px;
+  position: absolute;
+  top: 0;
+  
+  a {
+    padding-left: 130px; 
+    display: block;
+    color: #91999F;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 40px;
+
+    &:hover, &:hover .menu-icon {
+      color: #D5D5D5;
+    }
+  }
+
+  a, .menu-icon {
+    transition: all 0.2s ease-in-out;
+  }
+
+  .menu-top-status {
+    font-size: 20px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    background: #31343B;
+    color: #EBEBEB;
+  }
+  .online-status {
+    font-size: 16px;
+    color: #91999F;
+  }
+} 
+
+.menu-icon {
+  font-size: 20px;
+  color: #61646A;
+  margin-right: 15px;
+  vertical-align: -2px;
+}
