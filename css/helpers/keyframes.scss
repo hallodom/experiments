@@ -40,7 +40,10 @@
   }
 }
 
-
+/*
+ * .bounce-in-left
+ * Slide in from left outside viewport and ends with slight bounce.
+ */
 
 @include keyframes(bounce-in-left) {
  40% {
